@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+  .box {
+    justify-content: space-evenly;
+  }
+  .mobileApp img:nth-child(1) {
+    display: none;
+  }
+}
+@media (max-width: 930px) {
+  #work {
+    padding-block: 60px;
+  }
+  .card {
+    max-width: 330px;
+    height: 380px;
+  }
+  .mobileAppInfoMain {
+    max-width: 500px;
+  }
+  .mobileApp img:nth-child(3) {
+    display: none;
+  }
+  .mobileApp {
+    left: 0;
+  }
+}
+@media (max-width: 780px) {
+  #work {
+    padding-block: 30px;
+  }
+  #mobileAppInfo {
+    padding-block: 0px;
+  }
+  .mobileAppInfoMain {
+    max-width: 648px;
+    width: 100%;
+    gap: 20px;
+  }
+  .mobileAppInfo {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+@media (max-width: 726px) {
+  #work {
+    padding-block: 20px;
+  }
+  .card {
+    max-width: 330px;
+    height: 380px;
+  }
+}
